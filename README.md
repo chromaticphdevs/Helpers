@@ -6,7 +6,7 @@ PHP BUILT IN HELPERS
 //initiate the file helper
 $file = new File();
 <br/>
-$file->setFile($_FILES['uploadFileName'])
+$file->setFile($_FILES['uploadFileName'])<br/>
 ->setDIR(YOUR_UPLOAD_PATH) <br/>
 ->setPrefix('testUpload') //optional<br/>
 ->upload();
