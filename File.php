@@ -274,5 +274,10 @@
 		{
 			return $this->_fileSize;
 		}
+
+		private function changeMaxSize($size)
+		{
+			$this->_maxSize = $size;
+		}
 	}
 ?>
